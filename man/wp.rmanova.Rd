@@ -20,12 +20,12 @@ We use the statistic f as the measure of effect size for repeated-measures ANOVA
 \item{nscor}{Nonsphericity correction coefficient.
 The nonsphericity correction coefficient is a measure of the degree of sphericity in the population.
 A coefficient of 1 means sphericity is met, while a coefficient less than 1 means not met.
-The samller value of the coefficient means the further departure from sphericity.
+The smaller value of the coefficient means the further departure from sphericity.
 The lowest value of the coefficient is 1/(nm-1) where nm is the total number of measurements.
-Two viable approaches for computing the empirical nonsphericity correction coefficient are sggested.
+Two viable approaches for computing the empirical nonsphericity correction coefficient are suggested.
 One is by \cite{Greenhouse and Geisser (1959)}, the other is by \cite{Huynh and Feldt (1976)}.}
 
-\item{alpha}{significance level chosed for the test. It equals 0.05 by default.}
+\item{alpha}{significance level chosen for the test. It equals 0.05 by default.}
 
 \item{power}{Statistical power.}
 
